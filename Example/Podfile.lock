@@ -16,6 +16,14 @@ PODS:
     - AFNetworking/NSURLSession
   - FFAPIsKit (0.1.0):
     - AFNetworking
+    - FFToolsKit
+  - FFToolsKit (0.1.0):
+    - FMDB
+    - MBProgressHUD
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (1.1.0)
 
 DEPENDENCIES:
   - FFAPIsKit (from `../`)
@@ -23,6 +31,10 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - FMDB
+    - MBProgressHUD
+  https://github.com/suxx/FFSpecs.git:
+    - FFToolsKit
 
 EXTERNAL SOURCES:
   FFAPIsKit:
@@ -30,8 +42,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  FFAPIsKit: 59ea8633dabe4d3010264732e07dac0fbaf0e514
+  FFAPIsKit: df26ca96cc02118ea38262d0fe7436f142ebe690
+  FFToolsKit: 3dc4f8d1b2d992ec57017b41d3e74c5e3da43f19
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
 
-PODFILE CHECKSUM: 0dce5f00a24bb3a87bde4b6ff138ceb8319596aa
+PODFILE CHECKSUM: 462e09e27c68d97854ccda70bde52557c7a9d13c
 
 COCOAPODS: 1.5.2
